@@ -1,0 +1,14 @@
+# Entornos virtuales
+venv/
+env/
+myvenv/
+
+# Archivos de Python y caché
+__pycache__/
+*.pyc
+
+# Base de datos de Django
+db.sqlite3
+
+# Variables de entorno
+.env
