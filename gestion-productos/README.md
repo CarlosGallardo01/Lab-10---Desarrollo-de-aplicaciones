@@ -1,16 +1,30 @@
-# React + Vite
+# Gestión de Productos - Laboratorio 10
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prototipo funcional de una interfaz web para gestionar el catálogo de una empresa comercial. Desarrollado con React, Vite, Tailwind CSS y shadcn/ui. 
 
-Currently, two official plugins are available:
+Esta aplicación no requiere conexión a un backend para su funcionamiento básico, ya que el estado inicial de los productos y los nuevos registros se gestionan simulados en memoria (estado de React).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologías y Librerías Utilizadas
 
-## React Compiler
+*   **Framework/Librería:** React (con Hooks y componentes funcionales)
+*   **Herramienta de Build:** Vite
+*   **Estilos:** Tailwind CSS
+*   **Componentes UI:** shadcn/ui (Card, Table, Input, Label, Button)
+*   **CORS (Backend opcional):** `django-cors-headers`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Requisitos Previos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Antes de ejecutar el proyecto, asegúrate de tener instalado en tu sistema:
+*   [Node.js](https://nodejs.org/) (Versión 18 o superior).
+
+---
+
+## ⚙️ Instalación y Configuración Local
+
+Sigue estos pasos en tu terminal para ejecutar el proyecto en tu entorno local:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone <https://github.com/CarlosGallardo01/Lab-10---Desarrollo-de-aplicaciones.git>
